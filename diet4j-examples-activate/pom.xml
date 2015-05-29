@@ -31,9 +31,6 @@
                         <manifest>
                             <mainClass>org.diet4j.examples.activate.Main</mainClass>
                         </manifest>
-                        <manifestEntries>
-                            <diet4j-activation-class>org.diet4j.examples.activate.Activate</diet4j-activation-class>
-                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
@@ -44,5 +41,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <diet4j.activationclass>org.diet4j.examples.activate.Activate</diet4j.activationclass>
     </properties>
 </project>
