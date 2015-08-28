@@ -8,14 +8,14 @@
     <parent>
         <groupId>org.diet4j</groupId>
         <artifactId>diet4j-examples</artifactId>
-        <version>0.7-SNAPSHOT</version>
+        <version>0.9</version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>diet4j-core</artifactId>
-            <version>${project.version}</version>
+            <version>${diet4j.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -38,9 +38,6 @@
     </build>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <diet4j.activationclass>org.diet4j.examples.activate.Activate</diet4j.activationclass>
     </properties>
 </project>

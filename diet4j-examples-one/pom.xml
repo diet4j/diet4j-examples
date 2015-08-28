@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <name>diet4j-examples-one</name>
     <artifactId>diet4j-examples-one</artifactId>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.diet4j</groupId>
         <artifactId>diet4j-examples</artifactId>
-        <version>0.7-SNAPSHOT</version>
+        <version>0.9</version>
     </parent>
 
     <dependencies>
@@ -33,11 +34,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-    <name>diet4j-examples-one</name>
 </project>
