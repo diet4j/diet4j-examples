@@ -8,6 +8,6 @@
     <parent>
         <groupId>org.diet4j</groupId>
         <artifactId>diet4j-examples</artifactId>
-        <version>0.12</version>
+        <version>0.13</version>
     </parent>
 </project>
