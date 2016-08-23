@@ -1,2 +1,4 @@
+diet4j-examples-*.pkg*
+src/
+pkg/
 target/
-*.versionsBackup
