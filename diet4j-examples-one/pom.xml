@@ -8,14 +8,14 @@
     <parent>
         <groupId>org.diet4j</groupId>
         <artifactId>diet4j-examples</artifactId>
-        <version><!-- PKGVER -->0.14<!-- /PKGVER --></version>
+        <version><!-- PKGVER -->0.15<!-- /PKGVER --></version>
     </parent>
 
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>diet4j-examples-utils</artifactId>
-            <version><!-- PKGVER -->0.14<!-- /PKGVER --></version>
+            <version><!-- PKGVER -->0.15<!-- /PKGVER --></version>
         </dependency>             
     </dependencies>
 
