@@ -53,7 +53,7 @@ public class Activate
      * @param thisModule the Module being deactivated
      */
     public static void moduleDeactivate(
-            Module    thisModule )
+            Module thisModule )
     {
         System.err.println( Activate.class.getName() + ":" );
         System.err.println( "    deactivate invoked for " + thisModule.toString() );
