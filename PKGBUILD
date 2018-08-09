@@ -1,12 +1,12 @@
 pkgname=$(basename $(pwd))
-pkgver=0.16
+pkgver=0.17
 pkgrel=1
 pkgdesc='diet4j Java module examples'
 arch=('any')
 url="http://jdiet.org/"
 license=('Apache')
 makedepends=('maven' 'jdk8-openjdk' )
-depends=('java-runtime=8' 'java-jsvc' 'diet4j')
+depends=('java-runtime' 'java-jsvc' 'diet4j')
 
 prepare() {
     # Set pom.xml versions correctly; depends on XML-comment-based markup in pom.xml files
