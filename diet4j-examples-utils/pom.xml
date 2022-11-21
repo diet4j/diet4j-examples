@@ -8,6 +8,6 @@
     <parent>
         <groupId>org.diet4j</groupId>
         <artifactId>diet4j-examples</artifactId>
-        <version><!-- PKGVER -->0.16<!-- /PKGVER --></version>
+        <version><!-- PKGVER -->0.24<!-- /PKGVER --></version>
     </parent>
 </project>
